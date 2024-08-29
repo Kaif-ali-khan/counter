@@ -11,6 +11,7 @@ const Practice = (props) => {
         {number}
       </h1>
       <button
+        className="btn"
         onClick={() => {
           setnumber(number + 1);
         }}
@@ -18,6 +19,7 @@ const Practice = (props) => {
         Increase
       </button>
       <button
+        className="btn"
         onClick={() => {
           setnumber(number - 1);
         }}
